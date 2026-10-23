@@ -4,13 +4,21 @@
 
 Explore facial manipulation clues, learn how to question a suspicious image, and ask an AI assistant for guidance. Built by **Vipin Choudhary**.
 
+<div align="center">
+
+# [🌐 VISIT & EXPLORE DEEPDETECT](https://deepdetectdeepfakedetection.vercel.app/)
+
+### [Open the live website →](https://deepdetectdeepfakedetection.vercel.app/)
+
+</div>
+
 [Explore the site](#what-you-can-explore) · [Current status](#current-status) · [Deploy on Vercel](#deploy-on-vercel) · [How the assistant works](#how-the-assistant-works)
 
 ![DeepDetect homepage with its server status banner and interactive facial geometry](docs/assets/home.jpg)
 
 ## Current status
 
-> **The public image detector is paused.** The original model needs a server with more memory and compute than I can afford to host right now. The Vercel site is a public preview: the design, educational pages, interactive face, and optional Gemini assistant are available, but it **does not analyze uploaded images**. The banner on every page says this plainly.
+> **The public image detector is paused.** The original model needs a server with more memory and compute than I can afford to host right now. The complete analysis interface remains available to explore, but clicking either analysis button explains that the scan is taking a nap. Run the Django application locally to use the detector.
 
 The assistant can work without a separate Render server because a small Vercel Function calls Gemini. It answers questions about image verification; it cannot see or verify an image. A Gemini API key and available quota are required for it to reply.
 
